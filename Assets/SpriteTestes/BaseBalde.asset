@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: BaseBalde
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: spine/cintura
+    localPosition: {x: 0.042337507, y: -0.5584817, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7167965, w: 0.6972825}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/pernaFixa1
+    localPosition: {x: 0.0029692422, y: 0.04083662, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.6574763, w: 0.75347525}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/pernaFixa1/Perna1
+    localPosition: {x: 0.19594008, y: -0.000000014901161, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.67780423, w: 0.7352424}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/pernaFixa1/Perna1/Canela1
+    localPosition: {x: 0.48029017, y: -0.00000014901161, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.04012852, w: 0.99919456}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/pernaFixa1/Perna1/Canela1/Pe1
+    localPosition: {x: 0.4895819, y: -0.00000007484027, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.80350584, w: 0.59529686}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco
+    localPosition: {x: 0.4035823, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.04106083, w: 0.9991567}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1
+    localPosition: {x: 0.5667334, y: 0.14371052, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.91610265, w: 0.40094382}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1/Braco1
+    localPosition: {x: 0.18312076, y: -0.00000016391277, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7109439, w: 0.7032488}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1/Braco1/AnteBraco1
+    localPosition: {x: 0.34830162, y: -0.00000023503162, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.43982705, w: 0.8980825}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1/Braco1/AnteBraco1/Mao1
+    localPosition: {x: 0.285439, y: -0.00000017508864, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/braco2
+    localPosition: {x: 0.49609166, y: -0.11188045, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9435193, w: 0.33131763}
+    localScale: {x: 1.0000019, y: 1.0000019, z: 1}
+  - path: spine/cintura/tronco/braco2/anteBraco2
+    localPosition: {x: 0.42134175, y: 0.000000089406804, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.36631098, w: 0.93049246}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/braco2/anteBraco2/mao2
+    localPosition: {x: 0.23735508, y: 0.00000006798655, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/cabeca
+    localPosition: {x: 0.85779977, y: 0.00000008440111, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.77469414, w: 0.63233614}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/pernaFixa2
+    localPosition: {x: 0.0029692422, y: 0.04083662, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7065888, w: -0.7076244}
+    localScale: {x: 1.0000021, y: 1.0000021, z: 1}
+  - path: spine/cintura/pernaFixa2/Perna2
+    localPosition: {x: 0.19594008, y: -0.000000014901161, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.7369314, w: 0.67596763}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/pernaFixa2/Perna2/Canela2
+    localPosition: {x: 0.4838239, y: 0.00000011920929, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.04963661, w: 0.9987674}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/pernaFixa2/Perna2/Canela2/Pe2
+    localPosition: {x: 0.48348555, y: 0.000000022278982, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.7867665, w: -0.6172507}
+    localScale: {x: 1, y: 1, z: 1}

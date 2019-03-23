@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Plataformas-Vacina
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a18e35c7030e2b3439f62799a8c22c87, type: 3}
+    - {fileID: 2800000, guid: bb00d1a84591bb24d8100dbb492f3122, type: 3}
+    - {fileID: 2800000, guid: d77514fe6afd74b43a31e67b0585a017, type: 3}
+    - {fileID: 2800000, guid: 0e3ea1a541d2c554dbc24b415e60085f, type: 3}
+    - {fileID: 2800000, guid: 3d4900602178fcd4ba5fe28771459184, type: 3}
+    - {fileID: 2800000, guid: 597b1575b4b6c6741a51f4ae61fc9660, type: 3}
+    totalSpriteSurfaceArea: 468305
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3d4900602178fcd4ba5fe28771459184, type: 3}
+  - {fileID: 21300000, guid: 597b1575b4b6c6741a51f4ae61fc9660, type: 3}
+  - {fileID: 21300002, guid: 0e3ea1a541d2c554dbc24b415e60085f, type: 3}
+  - {fileID: 21300000, guid: a18e35c7030e2b3439f62799a8c22c87, type: 3}
+  - {fileID: 21300002, guid: bb00d1a84591bb24d8100dbb492f3122, type: 3}
+  - {fileID: 21300000, guid: d77514fe6afd74b43a31e67b0585a017, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - teste_plataforma_0
+  - teste_plataforma_0
+  - teste_plataforma_3-2_0
+  - teste_plataforma2_0
+  - teste_plataforma3_0
+  - teste_plataforma_hospital_0
+  m_Tag: Plataformas-Vacina
+  m_IsVariant: 0

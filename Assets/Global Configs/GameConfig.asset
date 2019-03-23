@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f85bf49118133945ae00899d4d020a8, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: LQANAAAAY3VycmVudENsaWVudAEADQAAAGN1cnJlbnRTY2hvb2wvAAAAAAAaAAAAREJPRVNDT0xBLCBBc3NlbWJseS1DU2hhcnAAAAAABQEADAAAAGN1cnJlbnRDbGFzcy8BAAAAABkAAABEQk9UVVJNQSwgQXNzZW1ibHktQ1NoYXJwAQAAAAUBAAsAAABjdXJyZW50WWVhci8CAAAAAB0AAABEQk9BTk9MRVRJVk8sIEFzc2VtYmx5LUNTaGFycAIAAAAFAQAIAAAAcXVldWVMb2cvAwAAAABGAAAAU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tTeXN0ZW0uQWN0aW9uLCBtc2NvcmxpYl1dLCBtc2NvcmxpYgMAAAAGAAAAAAAAAAAHBQEABgAAAEFQSVVSTC8EAAAAAGYAAABTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5EaWN0aW9uYXJ5YDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliXSxbU3lzdGVtLlN0cmluZywgbXNjb3JsaWJdXSwgbXNjb3JsaWIEAAAAAQAIAAAAY29tcGFyZXIvBQAAAABZAAAAU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWJdXSwgbXNjb3JsaWIFAAAABQYOAAAAAAAAAAQuKAAGAAAAZ29vZ2xlKAARAAAAaHR0cDovL2dvb2dsZS5jb20FBC4oABQAAABnZXRUYWJzU2luY3Jvbml6YWNhbygATAAAAGh0dHBzOi8vYXBpLmVkdXFicmlucS5jb20uYnIvZWR1cWJyaW5xQXBpMDIvRWR1cWJyaW5xQVovZ2V0VGFic1NpbmNyb25pemFjYW8FBC4oABUAAABzZXREaWRhdGljb3NQcm9ncmVzc28oAE4AAABodHRwczovL2FwaS5lZHVxYnJpbnEuY29tLmJyL2VkdXFicmlucUFwaTAyL0VkdXFicmlucUFaMy9zZXREaWRhdGljb3NQcm9ncmVzc28FBC4oAAoAAABnZXRNZXRvZG80KABCAAAAaHR0cHM6Ly9hcGkuZWR1cWJyaW5xLmNvbS5ici9lZHVxYnJpbnFBcGkwMi9FZHVxYnJpbnFBWi9nZXRNZXRvZG80BQQuKAANAAAAbG9naW5Vc3VhcmlvcygARQAAAGh0dHBzOi8vYXBpLmVkdXFicmlucS5jb20uYnIvZWR1cWJyaW5xQXBpMDIvRWR1cWJyaW5xQVovbG9naW5Vc3VhcmlvcwUELigADgAAAEdldFBSUmVtb3ZpZGFzKABGAAAAaHR0cHM6Ly9hcGkuZWR1cWJyaW5xLmNvbS5ici9lZHVxYnJpbnFBcGkwMi9FZHVxYnJpbnFBWi9HZXRQUlJlbW92aWRhcwUELigAFgAAAHNldEVzdGF0aXN0aWNhRGlkYXRpY2EoAE4AAABodHRwczovL2FwaS5lZHVxYnJpbnEuY29tLmJyL2VkdXFicmlucUFwaTAyL0VkdXFicmlucUFaL3NldEVzdGF0aXN0aWNhRGlkYXRpY2EFBC4oAA0AAABzZXRJbnZlbnRhcmlvKABGAAAAaHR0cHM6Ly9hcGkuZWR1cWJyaW5xLmNvbS5ici9lZHVxYnJpbnFBcGkwMi9FZHVxYnJpbnFBWjIvc2V0SW52ZW50YXJpbwUELigADAAAAHNldEpvZ29zTG9ncygARAAAAGh0dHBzOi8vYXBpLmVkdXFicmlucS5jb20uYnIvZWR1cWJyaW5xQXBpMDIvRWR1cWJyaW5xQVovc2V0Sm9nb3NMb2dzBQQuKAAMAAAAc2V0UG9udHVhY2FvKABEAAAAaHR0cHM6Ly9hcGkuZWR1cWJyaW5xLmNvbS5ici9lZHVxYnJpbnFBcGkwMi9FZHVxYnJpbnFBWi9zZXRQb250dWFjYW8FBC4oAAoAAABzZXRSYW5raW5nKABCAAAAaHR0cHM6Ly9hcGkuZWR1cWJyaW5xLmNvbS5ici9lZHVxYnJpbnFBcGkwMi9FZHVxYnJpbnFBWi9zZXRSYW5raW5nBQQuKAAQAAAAZ2V0U2luY3Jvbml6YWNhbygASAAAAGh0dHBzOi8vYXBpLmVkdXFicmlucS5jb20uYnIvZWR1cWJyaW5xQXBpMDIvRWR1cWJyaW5xQVovZ2V0U2luY3Jvbml6YWNhbwUELigAFQAAAHNldEdhbWVzRGlkYXRpY29zTG9ncygATgAAAGh0dHBzOi8vYXBpLmVkdXFicmlucS5jb20uYnIvZWR1cWJyaW5xQXBpMDIvRWR1cWJyaW5xQVozL3NldEdhbWVzRGlkYXRpY29zTG9ncwUELigADAAAAHNldEdhbWVzTG9ncygARAAAAGh0dHBzOi8vYXBpLmVkdXFicmlucS5jb20uYnIvZWR1cWJyaW5xQXBpMDIvRWR1cWJyaW5xQVovc2V0R2FtZXNMb2dzBQcF
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  dbName: localDatabaseR2.db3
+  ClientName: Sistema de Ensino Equipe
+  clientID: 18
+  gameID: 1
+  sincModePerguntas: 1
+  sincModeItens: 1
+  usageCounter: 0
+  usageLimit: 1000
+  limitDateAchive: 0
+  dateTimeLimit: 2018-12-31 00:00:00.000
+  nickname: teste1
+  namefull: Aluno Teste 1
+  playerID: 14
+  isOnline: 0
+  isVerifingNetwork: 0
+  sessionID: HwbhHKJsaFt6aN2dV93WafAuyLBwmcvllS2LiNphrKg98JtQQUDDpqO0J2sFNpTq99b4ml6cihsT2YCBPxkUfCFgQIBqqSIoQyZ0
+  hasCredentials: 1
+  isAudioOn: 1
+  isAudioFXOn: 1
+  isAudioVoiceOn: 1
+  BropsAmount: 14582
+  BropsDeviceAmount: 0
+  TotalPoints: 27104
+  TotalPointsDevice: 0
+  allMinigames:
+  - name: "Quem Somos N\xF3s"
+    highscore: 1010
+    stars: 3
+    CharactersAvaible: 010101010101
+    backgroundImage: {fileID: 21300000, guid: 44e69ed1c7cbc9f4a843a371fb19c874, type: 3}
+    sceneNameAR: "AR.QuemSomosN\xF3s"
+    description: "Mostre que voc\xEA j\xE1 conhece os personagens da Turma no divertido
+      jogo da mem\xF3ria e depois brinque e aprenda a ligar os nomes aos seus personagens."
+    OldCharacterSelected: 0
+    SceneName: MemoryGame
+    limit: {x: 100, y: 200, z: 300}
+    idLivro: 0
+  - name: "O Sumi\xE7o do Paulo"
+    highscore: 1101
+    stars: 3
+    CharactersAvaible: 010101010101
+    backgroundImage: {fileID: 21300002, guid: 44e69ed1c7cbc9f4a843a371fb19c874, type: 3}
+    sceneNameAR: "AR.Sumi\xE7o"
+    description: "Encontre a Turma que est\xE1 brincando de esconde-esconde no parque.
+      Mostre tamb\xE9m que conhece as formas geom\xE9tricas ganhando muitos Brops."
+    OldCharacterSelected: 0
+    SceneName: 1-2
+    limit: {x: 100, y: 200, z: 300}
+    idLivro: 0
+  - name: A Vacina do Leite Materno
+    highscore: 2452
+    stars: 0
+    CharactersAvaible: 010101010101
+    backgroundImage: {fileID: 21300008, guid: 44e69ed1c7cbc9f4a843a371fb19c874, type: 3}
+    sceneNameAR: AR.Vacina
+    description: "Voc\xEA vai se divertir muito ajudando o Zeca a encontrar seu irm\xE3ozinho,
+      fugindo de desafios e barreiras. Depois jogue atirando nas palavras corretas."
+    OldCharacterSelected: 0
+    SceneName: 1-3
+    limit: {x: 100, y: 200, z: 300}
+    idLivro: 0
+  - name: "As Riquezas e o Arco-\xEDris"
+    highscore: 527
+    stars: 3
+    CharactersAvaible: 010101010101
+    backgroundImage: {fileID: 21300004, guid: 44e69ed1c7cbc9f4a843a371fb19c874, type: 3}
+    sceneNameAR: AR.ArcoIris
+    description: "Ganhe muitos pontos e Brops ajudando a Turma do Zeca a construir
+      seu pr\xF3prio arco-\xEDris e coletar suas riquezas. Em seguida divirta-se com
+      contagem e as opera\xE7\xF5es matem\xE1ticas."
+    OldCharacterSelected: 0
+    SceneName: RainbowMinigame
+    limit: {x: 100, y: 200, z: 300}
+    idLivro: 0
+  - name: A Montanha de Brinquedos
+    highscore: 841
+    stars: 3
+    CharactersAvaible: 010101010101
+    backgroundImage: {fileID: 21300006, guid: 44e69ed1c7cbc9f4a843a371fb19c874, type: 3}
+    sceneNameAR: AR.Montanha
+    description: "Ajude o Zeca a organizar a montanha de brinquedos, mas cuidado para
+      ela n\xE3o cair. Depois vamos brincar de formar as palavras e ganhar muitos
+      pontos e Brops."
+    OldCharacterSelected: 0
+    SceneName: 1-4
+    limit: {x: 100, y: 200, z: 300}
+    idLivro: 0
+  minigames:
+  - idMinigame: 1
+    idLivro: 1
+    nomeMinigame: "Quem Somos N\xF3s"
+    infoMinigame: "Mostre que voc\xEA j\xE1 conhece os personagens da Turma do Zeca,
+      brincando no divertido jogo da mem\xF3ria. Depois, brinque e ganhe muitos pontos
+      e Brops ligando os nomes dos personagens \xE0s suas imagens. Ao final, mostre
+      pra Turma que voc\xEA lembra da hist\xF3ria do livro \"Quem somos n\xF3s?\"
+      fazendo o Interagindo e ganhando mais pontos! Vamos l\xE1, divirta-se e aprenda
+      muito!"
+    dataUpdate: 
+    ativo: 1
+  - idMinigame: 2
+    idLivro: 2
+    nomeMinigame: "O Sumi\xE7o do Paulo"
+    infoMinigame: "A Turma do Zeca est\xE1 brincando de esconde-esconde na pra\xE7a
+      da cidade. Eles est\xE3o bem escondidos. Encontre cada um deles e ganhe muitos
+      pontos. Depois, vamos brincar com as figuras geom\xE9tricas para ganhar mais
+      Brops e mostrar que voc\xEA \xE9 um aluno bem aplicado?!  Ao final, mostre pra
+      Turma que voc\xEA lembra da hist\xF3ria do livro \"O sumi\xE7o do Paulo\" fazendo
+      o Interagindo e ganhando mais pontos! Vamos l\xE1, avance no game e ganhe posi\xE7\xF5es
+      no ranking!"
+    dataUpdate: 
+    ativo: 1
+  - idMinigame: 3
+    idLivro: 3
+    nomeMinigame: A Vacina do Leite Materno
+    infoMinigame: "Esse game \xE9 muito legal! Ajude os personagens da Turma da Zeca
+      a encontrar o Juca, fugindo da mamadeira voadora. Voc\xEA vai correr, pular,
+      e at\xE9 voar com os efeitos dispon\xEDveis. O outro game \xE9 para voc\xEA
+      jogar atirando com o \"canudo m\xE1gico\" do Juca, escolhendo quais s\xE3o os
+      alimentos certos. Ao final, mostre que voc\xEA lembra da hist\xF3ria do livro
+      \"A vacina do leite materno\" brincando com o Interagindo e ganhando mais pontos!
+      Vamos l\xE1, divirta-se muito!"
+    dataUpdate: 
+    ativo: 1
+  - idMinigame: 4
+    idLivro: 4
+    nomeMinigame: "As Riquezas e o Arco-\xCDris"
+    infoMinigame: "Nesse game voc\xEA vai ajudar a Turma do Zeca a fazer sua pr\xF3pria
+      chuva e coletar muitas riquezas que v\xE3o cair do arco-\xEDris. Quanto mais
+      riquezas coletar, mais pontos e Brops voc\xEA ir\xE1 ganhar! Depois vamos contar
+      o que coletamos e mostrar que sabemos fazer continhas com essas quantidades.
+      Ao final do game, mostre pra Turma que voc\xEA lembra da hist\xF3ria do livro
+      \"As riquezas e o arco-\xEDris\" fazendo o Interagindo e ganhando mais pontos!"
+    dataUpdate: 
+    ativo: 1
+  - idMinigame: 5
+    idLivro: 5
+    nomeMinigame: A Montanha de Brinquedos
+    infoMinigame: "Ajude a organizar a montanha de brinquedos, livros e revistas que
+      est\xE1 no quarto do Zeca. Mas cuidado para a montanha n\xE3o cair. Depois,
+      vamos brincar de juntar as s\xEDlabas e formar palavras para ganhar muitos Brops.
+      Ao final, mostre pra Turma que voc\xEA lembra da hist\xF3ria do livro \"A montanha
+      de brinquedos\" se divertindo com o Interagindo e ganhando mais pontos e subindo
+      no ranking!"
+    dataUpdate: 
+    ativo: 1
+  levelManager: {fileID: 11400000, guid: 413ea218b6b2cd94287cfa7656a9059e, type: 2}
+  logHandler: {fileID: 11400000, guid: 06ddc60896c08054b830c1e8f915bff4, type: 2}
+  itensIDToDownloadImage: 
+  QuestionIDtoDownload: 0200000003000000040000000500000006000000070000000a0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000000200000003000000040000000500000006000000070000000a0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a000000
+  AnswersIDtoDoownload: 
+  ForgetUserOrPasswordLink: http://eduqbrinq.com.br/
+  GameKey: 0BIOXHX9j6uVtrBVhLTd0uyVDHndDaHUZl94etMbZ6Y3SinPprgx+9YO9EVVXHLVtihu7/kaewt+k+A6OlQMPOYDayASvZeL6OjHaZxEEpfjTnjhaSGP433DQ5WtVwxESuqQuBNsWK7z8oXoTsqhYYeEFAeSCscguZKih8DAqm4xinHXoE6QmRV7AlA4Z40+p0DrzNRK2MuUvJG7ccfLFvfFHvc45m8nCwelZDRiEhFNDIt1oglN7eiZH+utSt8jV0JMaxstYzhJosWSsYmSug==
+  mainMediaDirectory: C:/Users/Mentor Games/AppData/LocalLow/Eduqbrinq/As Aventuras
+    da Turma do Zeca/medias
+  destinationFolder: /item/
+  audioDestination: 
+  fullPatchItemIcon: C:/Users/Administrator/AppData/LocalLow/Eduqbrinq/As Aventuras
+    da Turma do Zeca/medias/item/
+  fullAudioClipDestinationAnswers: C:/Users/Administrator/AppData/LocalLow/Eduqbrinq/As
+    Aventuras da Turma do Zeca/medias/respostas/
+  fullAudioClipDestinationQuestions: C:/Users/Administrator/AppData/LocalLow/Eduqbrinq/As
+    Aventuras da Turma do Zeca/medias/perguntas/
+  sqliteVersion: 6
+  querys:
+  - alter table DBOITENS add column downloaded INTEGER DEFAULT 0
+  - alter table DBOPERGUNTAS add column downloaded INTEGER DEFAULT 0
+  - alter table DBORESPOSTAS add column downloaded INTEGER DEFAULT 0
+  - CREATE TABLE IF NOT EXISTS DBORECENTITEM (userId integer NOT NULL, itemId integer
+    NOT NULL, PRIMARY KEY (userId, itemId));
+  - DROP VIEW IF EXISTS DBORANKFILTER;
+  - 'CREATE VIEW DBORANKFILTER AS
+
+    SELECT DBORANKING.idMinigame,DBORANKING.idUsuario,DBORANKING.highscore,DBOESCOLA.idEscola,DBOESCOLA.nomeEscola,DBOUSUARIOS.idTurma,DBOTURMA.descTurma,DBOUSUARIOS.idCliente,DBOUSUARIOS.login
+    FROM DBORANKING INNER JOIN DBOUSUARIOS ON DBORANKING.idUsuario=DBOUSUARIOS.idUsuario
+    INNER JOIN DBOTURMA ON DBOUSUARIOS.idTurma=DBOTURMA.idTurma INNER JOIN DBOESCOLA
+    ON DBOTURMA.idEscola=DBOESCOLA.idEscola ORDER BY DBORANKING.highscore DESC'
+  showLists: 0
+  KeysListURLAPI:
+  - google
+  - getTabsSincronizacao
+  - setDidaticosProgresso
+  - getMetodo4
+  - loginUsuarios
+  - GetPRRemovidas
+  - setEstatisticaDidatica
+  - setInventario
+  - setJogosLogs
+  - setPontuacao
+  - setRanking
+  - getSincronizacao
+  - setGamesDidaticosLogs
+  - setGamesLogs
+  ValueFromListURLAPI:
+  - http://google.com
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/getTabsSincronizacao
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ3/setDidaticosProgresso
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/getMetodo4
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/loginUsuarios
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/GetPRRemovidas
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/setEstatisticaDidatica
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ2/setInventario
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/setJogosLogs
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/setPontuacao
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/setRanking
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/getSincronizacao
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ3/setGamesDidaticosLogs
+  - https://api.eduqbrinq.com.br/eduqbrinqApi02/EduqbrinqAZ/setGamesLogs
+  passwordDB: mentor123

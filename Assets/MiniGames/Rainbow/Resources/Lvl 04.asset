@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e7f211c1e1370e4db2e242ba02cecc8, type: 3}
+  m_Name: Lvl 04
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: 1000010487362336, guid: c6e5651f7b884084092063e31265b653, type: 2}
+  - {fileID: 1000010487362336, guid: 8aabd82fe6f8e9d43ac29c301297a145, type: 2}
+  - {fileID: 1000010487362336, guid: dbc85c9c9a6ccf6428988c76a250ddeb, type: 2}
+  - {fileID: 1000010487362336, guid: cde24913192d4264bbc714cf7b5bec1a, type: 2}
+  - {fileID: 1000010487362336, guid: 3436c1861e469bb449a447f59452203b, type: 2}
+  - {fileID: 1000010487362336, guid: 05eda133fd4ee11409220b7fe476a56a, type: 2}
+  - {fileID: 1000010487362336, guid: 3a5b2eee834201845b0f31f566ba0f7d, type: 2}
+  - {fileID: 1000010487362336, guid: f05e420b21d43194fb5924a726bb9862, type: 2}
+  - {fileID: 1000010487362336, guid: 5befe66167f50724585dea2ade4facd8, type: 2}
+  nWeights: 3200000032000000280000001e0000001e0000001e000000140000000a00000050000000
+  minSpeedInstance: 0.2
+  maxSpeedInstance: 0.6
+  amountOfInstance: 3
+  coinSpeedVariation: 0.1
+  curveOfFall: {x: -0.28, y: -0.5}
+  curveXDeltaSpeed: 0.55
+  curveOfFallTime: 5
+  energyDecreaseRate: 7
+  energyIncreaseLevelUp: 25
+  energyIncrease: 20
+  energyDecreateTimeRate: 2
+  speedVariations:
+  - 4

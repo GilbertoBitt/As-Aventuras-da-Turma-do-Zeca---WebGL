@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vacina-05
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300012, guid: e23327e8911ce11448a15497e8f40790, type: 3}
+    - {fileID: 21300014, guid: e23327e8911ce11448a15497e8f40790, type: 3}
+    - {fileID: 2800000, guid: e95275bf091ee45439bb6dfe98977e04, type: 3}
+    - {fileID: 2800000, guid: d1539720b10ef5f4eaf25047b994de2e, type: 3}
+    totalSpriteSurfaceArea: 2482663
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d1539720b10ef5f4eaf25047b994de2e, type: 3}
+  - {fileID: 21300014, guid: e23327e8911ce11448a15497e8f40790, type: 3}
+  - {fileID: 21300012, guid: e23327e8911ce11448a15497e8f40790, type: 3}
+  - {fileID: 21300000, guid: e95275bf091ee45439bb6dfe98977e04, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - raiodivisor_2_0
+  - background_area
+  - area_nome
+  - raiodivisor_1_0
+  m_Tag: Vacina-05
+  m_IsVariant: 0

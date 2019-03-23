@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: zecaBaseCorrendo
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: spine/cintura
+    localPosition: {x: 0.111697555, y: -1.9631021, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.6984006, w: 0.71570706}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/PernaFixa1
+    localPosition: {x: 0.13371246, y: 0.22585286, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.85871804, w: 0.5124485}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/PernaFixa1/perna1
+    localPosition: {x: 0.28080663, y: -0.00000008940697, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.3004059, w: 0.95381147}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/PernaFixa1/perna1/canela1
+    localPosition: {x: 0.9340589, y: 0.00000014901161, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.64314723, w: 0.7657426}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/PernaFixa1/perna1/canela1/pe1
+    localPosition: {x: 1.1308906, y: -0.000000014908267, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.683138, w: 0.73028934}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/PernaFixa2
+    localPosition: {x: 0.106490456, y: -0.11199026, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.787787, w: -0.61594784}
+    localScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  - path: spine/cintura/PernaFixa2/perna2
+    localPosition: {x: 0.23836957, y: -0.00000014901163, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.3378235, w: 0.9412095}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/PernaFixa2/perna2/canela2
+    localPosition: {x: 1.0052356, y: 0.00000017881393, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.04842219, w: 0.998827}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/PernaFixa2/perna2/canela2/pe2
+    localPosition: {x: 1.1260924, y: 0.0000004278154, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.75987256, w: 0.6500721}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco
+    localPosition: {x: 1.0938423, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.013180953, w: 0.99991316}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/prescoso
+    localPosition: {x: 1.5721656, y: -0.0000000054278644, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.0070734206, w: 0.999975}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/prescoso/cabeca
+    localPosition: {x: 1.2371395, y: 0.000000004121034, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.70761734, w: 0.7065959}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1
+    localPosition: {x: 1.6945801, y: 0.40222, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.91334707, w: 0.40718195}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1/braco1
+    localPosition: {x: 0.6617861, y: -0.000000059604645, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.8539297, w: 0.52038836}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1/braco1/anteBraco1
+    localPosition: {x: 1.1677772, y: -0.000000033527613, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.071075216, w: 0.997471}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo1/braco1/anteBraco1/Mao1
+    localPosition: {x: 0.6281374, y: -0.0000000661239, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.2252455, w: -0.97430205}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo2
+    localPosition: {x: 1.6064436, y: -0.5062501, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.8759785, w: 0.48235008}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo2/anteBraco2
+    localPosition: {x: 1.4015868, y: 0.00000011920929, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.055427868, w: 0.99846274}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spine/cintura/tronco/bracoFixo2/anteBraco2/mao2
+    localPosition: {x: 0.5455642, y: -0.00000021606684, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.36950576, w: 0.9292284}
+    localScale: {x: 1, y: 1, z: 1}

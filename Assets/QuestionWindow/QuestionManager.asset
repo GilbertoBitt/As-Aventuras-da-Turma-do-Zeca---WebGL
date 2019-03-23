@@ -1,0 +1,947 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f90acbaaaebf742b52b3e5ba2a1a7e, type: 3}
+  m_Name: QuestionManager
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  config: {fileID: 11400000, guid: 8a44dcc961734d549bdf44791a1678c8, type: 2}
+  levelManager: {fileID: 11400000, guid: 413ea218b6b2cd94287cfa7656a9059e, type: 2}
+  allQuestions:
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUEM EST\xC1 NA CAPA DO LIVRO \"QUEM SOMOS N\xD3S?\" ?"
+    idPergunta: 2
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: BIA
+      hideToggle: 1
+    - isCorrect: 0
+      text: "JO\xC3O"
+      hideToggle: 1
+    - isCorrect: 1
+      text: ZECA
+      hideToggle: 0
+    - isCorrect: 0
+      text: PAULO
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUAL \xC9 O NOME DA CIDADE ONDE O ZECA MORA?"
+    idPergunta: 3
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: "BR\xD3POLIS"
+      hideToggle: 0
+    - isCorrect: 0
+      text: BORBOREMA
+      hideToggle: 1
+    - isCorrect: 0
+      text: BROTAS
+      hideToggle: 1
+    - isCorrect: 0
+      text: "BOGOT\xC1"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: ONDE O ZECA DISSE QUE ESTUDA?
+    idPergunta: 4
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: NA MAIOR ESCOLA DA CIDADE
+      hideToggle: 1
+    - isCorrect: 0
+      text: NA ESCOLA MAIS BONITA DA CIDADE
+      hideToggle: 1
+    - isCorrect: 1
+      text: "NA ESCOLA MODELO DE BR\xD3POLIS"
+      hideToggle: 0
+    - isCorrect: 0
+      text: NA ESCOLA DE UMA OUTRA CIDADE
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUAL \xC9 A COR DOS CABELOS DO ZECA?"
+    idPergunta: 5
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: LOUROS
+      hideToggle: 1
+    - isCorrect: 0
+      text: PRETOS
+      hideToggle: 1
+    - isCorrect: 0
+      text: RUIVOS
+      hideToggle: 1
+    - isCorrect: 1
+      text: CASTANHOS
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUAL \xC9 A COR DOS OLHOS DO ZECA?"
+    idPergunta: 6
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: AZUIS
+      hideToggle: 1
+    - isCorrect: 0
+      text: VERDES
+      hideToggle: 1
+    - isCorrect: 0
+      text: PRETOS
+      hideToggle: 1
+    - isCorrect: 1
+      text: CASTANHOS
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "O ZECA DISSE QUE GOSTA DE ESTUDAR, DE JOGAR BOLA, DE PASSEAR COM
+      A FAM\xCDLIA E DE:"
+    idPergunta: 7
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: COMER CHOCOLATE
+      hideToggle: 1
+    - isCorrect: 1
+      text: BRINCAR COM OS AMIGOS
+      hideToggle: 0
+    - isCorrect: 0
+      text: TOMAR BANHO
+      hideToggle: 1
+    - isCorrect: 0
+      text: DORMIR
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUAL O NOME DO IRM\xC3O DO ZECA?"
+    idPergunta: 10
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: PAULO
+      hideToggle: 1
+    - isCorrect: 0
+      text: "JO\xC3O"
+      hideToggle: 1
+    - isCorrect: 1
+      text: JUCA
+      hideToggle: 0
+    - isCorrect: 0
+      text: "JOS\xC9"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "COM QUEM O ZECA ESTAVA ALMO\xC7ANDO NO IN\xCDCIO DA HIST\xD3RIA?"
+    idPergunta: 12
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: "COM A FAM\xCDLIA DELE"
+      hideToggle: 0
+    - isCorrect: 0
+      text: COM A PROFESSORA ANA
+      hideToggle: 1
+    - isCorrect: 0
+      text: SOZINHO
+      hideToggle: 1
+    - isCorrect: 0
+      text: COM SEUS AMIGOS
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "POR QUE O ZECA FICOU CHATEADO QUANDO ACABOU DE \tALMO\xC7AR?"
+    idPergunta: 13
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: "PORQUE ELE N\xC3O QUERIA ESCOVAR OS DENTES"
+      hideToggle: 1
+    - isCorrect: 1
+      text: "PORQUE A M\xC3E DISSE PARA ELE ARRUMAR O QUARTO"
+      hideToggle: 0
+    - isCorrect: 0
+      text: "PORQUE ELE N\xC3O QUERIA COMER VERDURAS"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "PORQUE SUA M\xC3E O COLOCOU DE CASTIGO"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: QUAL O NOME DO LIVRO QUE ZECA ESTAVA LENDO?
+    idPergunta: 14
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: "OS TR\xCAS PORQUINHOS"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "PIN\xD3QUIO"
+      hideToggle: 1
+    - isCorrect: 0
+      text: CHAPEUZINHO VERMELHO
+      hideToggle: 1
+    - isCorrect: 1
+      text: "CANGURU PUL\xC3O"
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: QUAL O NOME DO SOLDADINHO DE BRINQUEDO DO ZECA?
+    idPergunta: 15
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: CROC
+      hideToggle: 1
+    - isCorrect: 0
+      text: "PUL\xC3O"
+      hideToggle: 1
+    - isCorrect: 1
+      text: PINGO
+      hideToggle: 0
+    - isCorrect: 0
+      text: JUCA
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: POR QUE ZECA ESTAVA COM PRESSA EM ARRUMAR SEU QUARTO?
+    idPergunta: 16
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: "PORQUE ELE QUERIA JOGAR V\xCDDEO GAME"
+      hideToggle: 1
+    - isCorrect: 0
+      text: PORQUE ELE PRECISAVA TOMAR BANHO
+      hideToggle: 1
+    - isCorrect: 0
+      text: PORQUE ELE TINHA QUE DORMIR
+      hideToggle: 1
+    - isCorrect: 1
+      text: PORQUE ELE QUERIA ACABAR DE LER SEU LIVRO
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "O QUE O ZECA FEZ PARA ARRUMAR, RAPIDAMENTE, O \tQUARTO DELE?"
+    idPergunta: 17
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: GUARDOU SEUS LIVROS, REVISTAS E BRINQUEDOS NOS SEUS LUGARES CERTOS
+      hideToggle: 1
+    - isCorrect: 0
+      text: "JOGOU TODAS AS SUAS COISAS PARA DENTRO DO BER\xC7O DO SEU IRM\xC3O"
+      hideToggle: 1
+    - isCorrect: 1
+      text: JUNTOU TODAS AS SUAS COISAS E FEZ UMA MONTANHA COM SEUS BRINQUEDOS, LIVROS,
+        REVISTAS E ROUPAS
+      hideToggle: 0
+    - isCorrect: 0
+      text: "N\xC3O FEZ NADA"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: ONDE ZECA COLOCOU SUA MONTANHA DE BRINQUEDOS?
+    idPergunta: 18
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: ESCONDEU DENTRO DO GUARDA-ROUPA
+      hideToggle: 1
+    - isCorrect: 1
+      text: "DEBAIXO DO LEN\xC7OL DA CAMA"
+      hideToggle: 0
+    - isCorrect: 0
+      text: "ESCONDEU TUDO ATR\xC1S DA ESTANTE"
+      hideToggle: 1
+    - isCorrect: 0
+      text: GUARDOU TUDO NO BANHEIRO
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "ZECA DORMIU EM CIMA DO LIVRO. QUEM ESTAVA EMPURRANDO A CABE\xC7A
+      DELE?"
+    idPergunta: 19
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: O JUCA
+      hideToggle: 1
+    - isCorrect: 0
+      text: "A M\xC3E DELE"
+      hideToggle: 1
+    - isCorrect: 1
+      text: "O CANGURU PUL\xC3O"
+      hideToggle: 0
+    - isCorrect: 0
+      text: O PAI DO ZECA
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: COMO ESTAVAM OS BRINQUEDOS DO ZECA NA MONTANHA DE BRINQUEDOS?
+    idPergunta: 20
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: QUEBRADOS, RASGADOS, SUJOS E ZANGADOS
+      hideToggle: 0
+    - isCorrect: 0
+      text: INTEIROS E LIMPOS
+      hideToggle: 1
+    - isCorrect: 0
+      text: ORGANIZADOS
+      hideToggle: 1
+    - isCorrect: 0
+      text: FELIZES E BEM TRATADOS
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUEM AJUDOU O ZECA A PERCEBER QUE ELE ESTAVA AGINDO \tERRADO?"
+    idPergunta: 21
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: "O CANGURU PUL\xC3O E O SOLDADO PINGO"
+      hideToggle: 0
+    - isCorrect: 0
+      text: O SOLDADO PINGO E SEU PAI
+      hideToggle: 1
+    - isCorrect: 0
+      text: "SEU PAI E SUA M\xC3E"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "SUA M\xC3E E O CANGURU PUL\xC3O"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUAL FOI A LI\xC7\xC3O QUE O ZECA APRENDEU NESSA HISTORINHA?"
+    idPergunta: 22
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: "QUE DEVEMOS ESCOVAR OS DENTES AP\xD3S AS REFEI\xC7\xD5ES"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "QUE N\xC3O DEVEMOS LER EM CIMA DA CAMA"
+      hideToggle: 1
+    - isCorrect: 1
+      text: QUE DEVEMOS CUIDAR BEM DAS NOSSAS COISAS E AJUDAR A MANTER A NOSSA CASA
+        ARRUMADA
+      hideToggle: 0
+    - isCorrect: 0
+      text: QUE DEVEMOS OBEDECER AOS NOSSOS PAIS
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUANDO A PROFESSORA DISSE \u201CHOJE VAMOS FALAR SOBRE RIQUEZAS\u201D,
+      EM QUE ZECA LOGO PENSOU?"
+    idPergunta: 23
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: "V\xC1RIAS ROUPAS, BOLSAS E SAPATOS"
+      hideToggle: 1
+    - isCorrect: 1
+      text: UM MONTE DE BRINQUEDOS LEGAIS E VIDEOGAMES
+      hideToggle: 0
+    - isCorrect: 0
+      text: "UM CARR\xC3O BEM BONITO"
+      hideToggle: 1
+    - isCorrect: 0
+      text: LANCHES GOSTOSOS
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "POR QUE AS CRIAN\xC7AS PENSARAM S\xD3 EM COISAS MATERIAIS QUANDO
+      A PROFESSORA FALOU EM RIQUEZA?"
+    idPergunta: 24
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: "PORQUE ELAS N\xC3O GOSTAM DAS RIQUEZAS SENTIMENTAIS"
+      hideToggle: 1
+    - isCorrect: 1
+      text: "PORQUE ELAS PENSAVAM QUE RIQUEZAS FOSSEM \tSOMENTE COISAS MATERIAIS"
+      hideToggle: 0
+    - isCorrect: 0
+      text: "PORQUE N\xC3O EXISTEM OUTROS TIPOS DE RIQUEZA"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "PORQUE ELAS N\xC3O ENTENDERAM NADA"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "A PROFESSORA ANA DISSE QUE AS CRIAN\xC7AS ESQUECERAM DE FALAR:"
+    idPergunta: 25
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: DE UMA COISA MUITO CHATA
+      hideToggle: 1
+    - isCorrect: 0
+      text: DE UMA COISA QUE FAZ TODO MUNDO CHORAR
+      hideToggle: 1
+    - isCorrect: 0
+      text: "DE UMA COISA QUE NINGU\xC9M GOSTA"
+      hideToggle: 1
+    - isCorrect: 1
+      text: DE UMA COISA MUITO IMPORTANTE, QUE FAZ TUDO NA ESCOLA SER MAIS LEGAL
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: QUAL FOI A IDEIA QUE O ZECA TEVE?
+    idPergunta: 26
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: "CRIAR O PR\xD3PRIO ARCO-\xCDRIS"
+      hideToggle: 0
+    - isCorrect: 0
+      text: TOMAR BANHO DE MANGUEIRA
+      hideToggle: 1
+    - isCorrect: 0
+      text: FAZER UMA CHUVA
+      hideToggle: 1
+    - isCorrect: 0
+      text: BRINCAR COM OS AMIGOS
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "TUDO J\xC1 ESTAVA PRONTO PARA ELES FAZEREM O ARCO-\xCDRIS, MAS
+      FALTAVA SOMENTE:"
+    idPergunta: 27
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: CHOVER DE VERDADE
+      hideToggle: 1
+    - isCorrect: 1
+      text: O SOL APARECER
+      hideToggle: 0
+    - isCorrect: 0
+      text: ANOITECER
+      hideToggle: 1
+    - isCorrect: 0
+      text: "A \xC1GUA DA MANGUEIRA FICAR MAIS FORTE"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "O QUE ZECA E SEUS AMIGOS PROCURARAM NAS PONTAS DO ARCO-\xCDRIS?"
+    idPergunta: 28
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: A AMIZADE
+      hideToggle: 1
+    - isCorrect: 0
+      text: MUITOS BRINQUEDOS
+      hideToggle: 1
+    - isCorrect: 1
+      text: UM POTE CHEIO DE MOEDAS DE OURO
+      hideToggle: 0
+    - isCorrect: 0
+      text: A CHUVA
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUEM EST\xC1 NA CAPA DO LIVRO \"A VACINA DE LEITE MATERNO\"?"
+    idPergunta: 29
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: "O ZECA, A M\xC3E DELE E O JUCA"
+      hideToggle: 0
+    - isCorrect: 0
+      text: O ZECA, O PAI DELE E A BIA
+      hideToggle: 1
+    - isCorrect: 0
+      text: "O ZECA, O PAI E A M\xC3E DELE"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "O ZECA, A MANU E O JO\xC3O"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "NA CAPA, O ZECA EST\xC1 PENSANDO EM QU\xCA?"
+    idPergunta: 30
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: PRATO DE COMIDA
+      hideToggle: 1
+    - isCorrect: 1
+      text: SERINGA COM VACINA
+      hideToggle: 0
+    - isCorrect: 0
+      text: BRINCAR COM OS AMIGOS
+      hideToggle: 1
+    - isCorrect: 0
+      text: DORMIR
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: DE ONDE O ZECA ACABOU DE CHEGAR?
+    idPergunta: 31
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: DO CLUBE
+      hideToggle: 1
+    - isCorrect: 0
+      text: "DA PRA\xC7A"
+      hideToggle: 1
+    - isCorrect: 1
+      text: DA ESCOLA
+      hideToggle: 0
+    - isCorrect: 0
+      text: "DA CASA DA AV\xD3"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "O QUE O ZECA FALOU PARA A M\xC3E, ASSIM QUE ENTROU NA CASA DELE?"
+    idPergunta: 32
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: ELE DISSE QUE ESTAVA CANSADO
+      hideToggle: 1
+    - isCorrect: 0
+      text: ELE DISSE QUE QUERIA BRINCAR
+      hideToggle: 1
+    - isCorrect: 1
+      text: ELE DISSE QUE ESTAVA COM MUITA FOME
+      hideToggle: 0
+    - isCorrect: 0
+      text: ELE DISSE QUE QUERIA DORMIR
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "QUAL ERA A REFEI\xC7\xC3O QUE J\xC1 ESTAVA SERVIDA NA MESA?"
+    idPergunta: 33
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: JANTAR
+      hideToggle: 1
+    - isCorrect: 0
+      text: "CAF\xC9 DA MANH\xC3"
+      hideToggle: 1
+    - isCorrect: 0
+      text: LANCHE
+      hideToggle: 1
+    - isCorrect: 1
+      text: "ALMO\xC7O"
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "O QUE A M\xC3E DO ZECA ESTAVA FAZENDO, QUANDO O ZECA CHEGOU EM
+      CASA?"
+    idPergunta: 34
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: ELA ESTAVA ARRUMANDO A CASA
+      hideToggle: 1
+    - isCorrect: 0
+      text: ELA ESTAVA TOMANDO BANHO
+      hideToggle: 1
+    - isCorrect: 0
+      text: ELA ESTAVA TRABALHANDO
+      hideToggle: 1
+    - isCorrect: 1
+      text: ELA ESTAVA AMAMENTANDO O JUCA
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "POR QUE A M\xC3E DO ZECA DISSE QUE O JUCA J\xC1 ESTAVA ACABANDO
+      DE ALMO\xC7AR?"
+    idPergunta: 35
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: PORQUE ELA ESTAVA ACABANDO DE AMAMENTAR O JUCA
+      hideToggle: 0
+    - isCorrect: 0
+      text: "PORQUE O JUCA J\xC1 TINHA COMIDO MUITA COMIDA"
+      hideToggle: 1
+    - isCorrect: 0
+      text: PORQUE O JUCA COMEU FRUTAS
+      hideToggle: 1
+    - isCorrect: 0
+      text: "PORQUE O JUCA N\xC3O GOSTA DE LEITE"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: ONDE ZECA E SEUS AMIGOS ESTAVAM BRINCANDO?
+    idPergunta: 36
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: NA CASA DO PAULO
+      hideToggle: 1
+    - isCorrect: 0
+      text: NA QUADRA DA ESCOLA
+      hideToggle: 1
+    - isCorrect: 0
+      text: NO QUARTO DA BIA
+      hideToggle: 1
+    - isCorrect: 1
+      text: "NA PRA\xC7A DA CIDADE"
+      hideToggle: 0
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: QUEM FALTAVA SER ENCONTRADO?
+    idPergunta: 37
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: O ZECA
+      hideToggle: 1
+    - isCorrect: 0
+      text: A MANU
+      hideToggle: 1
+    - isCorrect: 1
+      text: O PAULO
+      hideToggle: 0
+    - isCorrect: 0
+      text: "O JO\xC3O"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: "POR QUE O PAI DO ZECA RESOLVEU PROCURAR PELO PAULO, TAMB\xC9M?"
+    idPergunta: 38
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: "PORQUE ELE FICOU PREOCUPADO, POIS VIU QUE J\xC1 ESTAVA TARDE"
+      hideToggle: 0
+    - isCorrect: 0
+      text: "PORQUE ELE J\xC1 QUERIA IR EMBORA"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "PORQUE ELE TAMB\xC9M QUERIA BRINCAR"
+      hideToggle: 1
+    - isCorrect: 0
+      text: PORQUE ELE QUERIA AJUDAR A BIA
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: ONDE O PAULO ESTAVA ESCONDIDO?
+    idPergunta: 39
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: "SENTADO NUM GALHO ALTO DA \xC1RVORE"
+      hideToggle: 0
+    - isCorrect: 0
+      text: "ATR\xC1S DE UMA PEDRA"
+      hideToggle: 1
+    - isCorrect: 0
+      text: "DEBAIXO DO BANCO DA PRA\xC7A"
+      hideToggle: 1
+    - isCorrect: 0
+      text: NA CASA DELE
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: POR QUE O PAULO FICOU ESCONDIDO, MESMO VENDO QUE TODOS ESTAVAM PREOCUPADOS
+      COM ELE?
+    idPergunta: 40
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: "PORQUE ELE DORMIU EM CIMA DA \xC1RVORE"
+      hideToggle: 1
+    - isCorrect: 1
+      text: "PORQUE ELE ACHOU ENGRA\xC7ADO VER TODOS O PROCURANDO"
+      hideToggle: 0
+    - isCorrect: 0
+      text: PORQUE ELE GOSTA DE DEIXAR AS PESSOAS PREOCUPADAS
+      hideToggle: 1
+    - isCorrect: 0
+      text: "PORQUE ELE ESTAVA COM MEDO DE DESCER DA \xC1RVORE"
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: O QUE O PAI DO ZECA ACHOU QUE TINHA ACONTECIDO COM O PAULO?
+    idPergunta: 41
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 0
+      text: ELE ACHOU QUE O PAULO TINHA IDO EMBORA PARA CASA
+      hideToggle: 1
+    - isCorrect: 1
+      text: "ELE ACHOU QUE ALGU\xC9M HAVIA RAPTADO O PAULO"
+      hideToggle: 0
+    - isCorrect: 0
+      text: ELE ACHOU QUE O PAULO TINHA FUGIDO
+      hideToggle: 1
+    - isCorrect: 0
+      text: ELE ACHOU QUE O PAULO ESTAVA DORMINDO
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []
+  - templateQuestion: 1
+    templateAnswer: 1
+    anoLetivo: 0
+    habilidade: 62
+    disciplina: 0
+    questionText: EM QUAL LOCAL DA CASA O JUCA ESTAVA MAMANDO QUANDO O ZECA CHEGOU?
+    idPergunta: 42
+    questionImage: {fileID: 0}
+    questionAudioClip: {fileID: 0}
+    alternativesText:
+    - isCorrect: 1
+      text: NA SALA
+      hideToggle: 0
+    - isCorrect: 0
+      text: NA COZINHA
+      hideToggle: 1
+    - isCorrect: 0
+      text: NO QUARTO DO ZECA
+      hideToggle: 1
+    - isCorrect: 0
+      text: NA VARANDA DA CASA
+      hideToggle: 1
+    alternativesImages: []
+    alternativesAudioClips: []

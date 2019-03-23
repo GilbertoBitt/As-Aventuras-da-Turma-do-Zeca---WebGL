@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19e0e72e6d2f04282971919a82a7b1, type: 3}
+  m_Name: StoreData
+  m_EditorClassIdentifier: 
+  itensOnStore:
+  - itemName: Pipoca
+    itemBuyValue: 1000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 1
+  - itemName: Castelo de Areia
+    itemBuyValue: 5000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 2
+  - itemName: Lanche
+    itemBuyValue: 5000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 3
+  - itemName: "Livro O Canguru Pul\xE3o"
+    itemBuyValue: 5000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 4
+  - itemName: Vacina do Leite Materno
+    itemBuyValue: 7000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 5
+  - itemName: Mochila do Zeca
+    itemBuyValue: 5000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 6
+  - itemName: Leite
+    itemBuyValue: 5000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 7
+  - itemName: Casa do Zeca
+    itemBuyValue: 10000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 8
+  - itemName: Pote de Ouro
+    itemBuyValue: 7000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 9
+  - itemName: "Arco-\xEDris"
+    itemBuyValue: 7000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 10
+  - itemName: Mangueira
+    itemBuyValue: 5000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 11
+  - itemName: "L\xE1pis"
+    itemBuyValue: 1000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 12
+  - itemName: Soldado Pingo
+    itemBuyValue: 10000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 13
+  - itemName: "Escola Modelo de Br\xF3polis"
+    itemBuyValue: 10000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 14
+  - itemName: "Ba\xFA de Brinquedos"
+    itemBuyValue: 7000
+    itemIcon: {fileID: 0}
+    itemCategoryID: 1
+    itemID: 15
+  buyedItens: 
+  itensCategory: []
+  config: {fileID: 11400000, guid: 8a44dcc961734d549bdf44791a1678c8, type: 2}

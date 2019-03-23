@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 9c8ba179f660e7a4ca050c72895e006a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Carla_animation_0
+    21300002: Carla_animation_1
+    21300004: Carla_animation_2
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Carla_animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 351
+        height: 708
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.5, y: 354}
+        - {x: -175.5, y: 312}
+        - {x: -175.5, y: -213}
+        - {x: -56.5, y: -354}
+        - {x: 175.5, y: -354}
+        - {x: 175.5, y: 205}
+        - {x: 136.5, y: 354}
+      - - {x: -67.5, y: -81}
+        - {x: -68.5, y: -81}
+        - {x: -67.5, y: -83}
+        - {x: -58.5, y: -100}
+      physicsShape:
+      - - {x: 148.5, y: 354}
+        - {x: -175.5, y: 354}
+        - {x: -175.5, y: -209}
+        - {x: -116.5, y: -354}
+        - {x: 175.5, y: -354}
+        - {x: 175.5, y: 309}
+        - {x: 169.5, y: 349}
+      - - {x: -99.5, y: -153}
+        - {x: -64.5, y: -89}
+        - {x: -21.5, y: -155}
+        - {x: -30.5, y: -206}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aef3d94dab86d4094ca7712dc3ccf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carla_animation_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 661
+        width: 166
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.85263, y: 10.166321}
+        - {x: -79.54068, y: -3.678772}
+        - {x: -76.98102, y: -22.594238}
+        - {x: 70.10382, y: -21.604492}
+        - {x: 70.068115, y: -1.3223877}
+        - {x: 59.235413, y: 12.334961}
+      physicsShape:
+      - - {x: -62.643463, y: 8.87793}
+        - {x: -77.81027, y: -2.057373}
+        - {x: -76.6196, y: -22.854004}
+        - {x: 67.80859, y: -22.550232}
+        - {x: 70.464294, y: -11.307678}
+        - {x: 66.804565, y: 7.753235}
+        - {x: 61.4281, y: 16.1698}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 932dad2733195294ead7b78d1f7c8ff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carla_animation_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 579
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 22}
+        - {x: -41, y: -22}
+        - {x: 41, y: -22}
+        - {x: 41, y: 22}
+      physicsShape:
+      - - {x: -41, y: 22}
+        - {x: -41, y: -22}
+        - {x: 41, y: -22}
+        - {x: 41, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38719a25e22cc994b9033b8fe436c56c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

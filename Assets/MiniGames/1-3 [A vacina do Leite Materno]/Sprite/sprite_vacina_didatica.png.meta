@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: e23327e8911ce11448a15497e8f40790
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bola_tiro
+    21300002: canudo01
+    21300004: canudo02
+    21300006: canudo03
+    21300008: canudo04
+    21300010: canudo05
+    21300012: area_nome
+    21300014: background_area
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 1
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bola_tiro
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 388
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -56}
+        - {x: 55, y: -45}
+        - {x: 60, y: -38}
+        - {x: 64, y: -29}
+        - {x: 68, y: -17}
+        - {x: 68, y: 16}
+        - {x: 65, y: 25}
+        - {x: 58, y: 39}
+        - {x: 43, y: 55}
+        - {x: 34, y: 61}
+        - {x: 27, y: 64}
+        - {x: 15, y: 68}
+        - {x: -16, y: 68}
+        - {x: -25, y: 65}
+        - {x: -38, y: 59}
+        - {x: -44, y: 54}
+        - {x: -56, y: 42}
+        - {x: -61, y: 36}
+        - {x: -65, y: 27}
+        - {x: -68, y: 20}
+        - {x: -68, y: -23}
+        - {x: -61, y: -37}
+        - {x: -58, y: -42}
+        - {x: -42, y: -57}
+        - {x: -34, y: -63}
+        - {x: -25, y: -68}
+        - {x: 20, y: -68}
+        - {x: 26, y: -66}
+        - {x: 35, y: -62}
+        - {x: 40, y: -59}
+      physicsShape:
+      - - {x: 35, y: -61}
+        - {x: 41, y: -57}
+        - {x: 51, y: -47}
+        - {x: 56, y: -41}
+        - {x: 60, y: -36}
+        - {x: 63, y: -29}
+        - {x: 66, y: -20}
+        - {x: 68, y: -12}
+        - {x: 68, y: 11}
+        - {x: 66, y: 19}
+        - {x: 63, y: 27}
+        - {x: 60, y: 34}
+        - {x: 56, y: 40}
+        - {x: 43, y: 53}
+        - {x: 37, y: 58}
+        - {x: 24, y: 64}
+        - {x: 14, y: 67}
+        - {x: 10, y: 68}
+        - {x: -10, y: 68}
+        - {x: -19, y: 66}
+        - {x: -25, y: 64}
+        - {x: -36, y: 59}
+        - {x: -42, y: 55}
+        - {x: -54, y: 43}
+        - {x: -59, y: 37}
+        - {x: -65, y: 24}
+        - {x: -67, y: 18}
+        - {x: -68, y: 14}
+        - {x: -68, y: -16}
+        - {x: -67, y: -20}
+        - {x: -64, y: -28}
+        - {x: -60, y: -37}
+        - {x: -55, y: -43}
+        - {x: -43, y: -55}
+        - {x: -37, y: -60}
+        - {x: -26, y: -65}
+        - {x: -21, y: -67}
+        - {x: -17, y: -68}
+        - {x: 16, y: -68}
+        - {x: 23, y: -66}
+        - {x: 28, y: -64}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: c7fb7b4be8f9fb24f81794ebe5264e87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canudo01
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 169
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede5c7719f5ece6418f5f98aafbe2256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canudo02
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 169
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637490520bcd05c4e99a19371d368e22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canudo03
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 169
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49465575d3f772947b99685da4b851b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canudo04
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 169
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d254e0d4c43e7a46bed32c0f038b2bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canudo05
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 169
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c4080281a359c4bab05fe8468e8f09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: area_nome
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 241
+        width: 100
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 35, y: 0, z: 35, w: 0}
+      outline:
+      - - {x: 50, y: 42.5}
+        - {x: 45, y: 53.5}
+        - {x: 34, y: 63.5}
+        - {x: 29, y: 66.5}
+        - {x: -32, y: 66.5}
+        - {x: -46, y: 53.5}
+        - {x: -50, y: 43.5}
+        - {x: -50, y: -45.5}
+        - {x: -41, y: -59.5}
+        - {x: -28, y: -66.5}
+        - {x: 28, y: -66.5}
+        - {x: 36, y: -61.5}
+        - {x: 45, y: -52.5}
+        - {x: 50, y: -41.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 7249f2bc1aad9bf48b26aeca6e285d0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background_area
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 42
+        width: 57
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 0, z: 12, w: 0}
+      outline:
+      - - {x: -28.5, y: 89.5}
+        - {x: -28.5, y: -89.5}
+        - {x: 26.5, y: -89.5}
+        - {x: 28.5, y: -86.5}
+        - {x: 28.5, y: 89.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 983fa8bc05ea22f448eacd787e0e762b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e22915820fb489143858d05d09deef22
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: Vacina05
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
